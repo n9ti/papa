@@ -16,12 +16,14 @@ export default {
         leia: {
           wakeup: 8,
           sleep: 21,
-          icon: 'leia.svg'
+          icon: 'leia.svg',
+          city: 'Bangkok'
         },
         papa: {
           wakeup: 8,
           sleep: 24,
-          icon: 'papa.svg'
+          icon: 'papa.svg',
+          city: 'San Jose'
         }
       }
     }
