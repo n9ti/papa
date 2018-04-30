@@ -2,7 +2,7 @@
   <div class="haft" :style="`background: ${display.bg}`">
     <h1>{{type}}</h1>
     <img :src="`/static/${display.icon}`" alt="" width="100px">
-    <h1>{{displayTime}}</h1>
+    <h1>{{config[type].city}} {{displayTime}}</h1>
   </div>
 </template>
 
