@@ -1,5 +1,5 @@
 <template>
-  <div class="haft" :style="`background: ${display.bg}`">
+  <div class="haft" :style="`background: ${display.bg}; color: ${display.color};`">
     <h1>{{type}}</h1>
     <img :src="`/static/${display.icon}`" alt="" width="100px">
     <h1>{{config[type].city}} {{displayTime}}</h1>
